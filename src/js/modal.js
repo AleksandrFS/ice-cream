@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
    /* Перебираем массив кнопок */
    modalButtons.forEach(function(item){
 
-      /* Назначаем каждой кнопке обработчик клика */
+      /* Назначаем каждой кнопке обработчик по клику */
       item.addEventListener('click', function(e) {
 
          /* Предотвращаем стандартное действие элемента. Так как кнопку разные
